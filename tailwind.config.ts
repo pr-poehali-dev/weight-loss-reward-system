@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Мотивирующие цвета для фитнес-платформы
+				energetic: {
+					red: '#FF6B6B',
+					teal: '#4ECDC4',
+					yellow: '#FFEAA7',
+					dark: '#2D3436',
+					gray: '#96CEB4',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -61,6 +69,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Мотивирующие цвета для фитнес-платформы
+				energetic: {
+					red: '#FF6B6B',
+					teal: '#4ECDC4',
+					yellow: '#FFEAA7',
+					dark: '#2D3436',
+					gray: '#96CEB4',
 				}
 			},
 			borderRadius: {
@@ -89,6 +105,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				sans: ['Montserrat', 'system-ui', 'sans-serif'],
+				body: ['Open Sans', 'system-ui', 'sans-serif'],
 			}
 		}
 	},
